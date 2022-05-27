@@ -1,0 +1,174 @@
+[
+    {
+      "good_name": "Струны D`ADDARIO EXP26 COATED PHOSPHOR BRONZE CUSTOM LIGHT 11-52",
+      "category_id": "3",
+      "price": "1080",
+      "photo": "D`ADDARIO EXP26 COATED PHOSPHOR BRONZE CUSTOM LIGHT 11-52.jpg"
+    },
+    {
+      "good_name": "Тюнер KORG PITCHCLIP PC-2",
+      "category_id": "3",
+      "price": "1190",
+      "photo": "KORG PITCHCLIP PC-2.jpg"
+    },
+    {
+      "good_name": "IBANEZ GIO GSA60 BS",
+      "category_id": "1",
+      "price": "26100",
+      "photo": "IBANEZ GIO GSA60 BS.jpg"
+    },
+    {     
+      "good_name": "JACKSON JS22-7 DKA, AH FB - HT STN BLK",
+      "category_id": "1",
+      "price": "32000",
+      "photo": "JACKSON JS22-7 DKA, AH FB - HT STN BLK.jpg"
+    },
+    {
+      "good_name": "IBANEZ RG421-MOL",
+      "category_id": "1",
+      "price": "41000",
+      "photo": "IBANEZ RG421-MOL.jpg"
+    },
+    {
+      "good_name": "MARSHALL DSL1 COMBO",
+      "category_id": "3",
+      "price": "41000",
+      "photo": "MARSHALL DSL1 COMBO.jpg"
+    },
+    {
+      "good_name": "JACKSON JS3Q SPECTRA IV - AMBER BLUE BURST",
+      "category_id": "2",
+      "price": "56000",
+      "photo": "JACKSON JS3Q SPECTRA IV - AMBER BLUE BURST.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER STRATOCASTER PF POLAR WHITE",
+      "category_id": "1",
+      "price": "71400",
+      "photo": "FENDER PLAYER STRATOCASTER PF POLAR WHITE.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER TELECASTER MN BUTTERSCOTCH BLONDE",
+      "category_id": "1",
+      "price": "71400",
+      "photo": "FENDER PLAYER TELECASTER MN BUTTERSCOTCH BLONDE.jpg"
+    },
+    {
+      "good_name": "JACKSON CBXNT IV - MATTE ARMY DRAB",
+      "category_id": "2",
+      "price": "73000",
+      "photo": "JACKSON CBXNT IV - MATTE ARMY DRAB.jpg"
+    },
+    {
+      "good_name": "IBANEZ SR500E-BM SR",
+      "category_id": "2",
+      "price": "73000",
+      "photo": "IBANEZ SR500E-BM SR.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER PRECISION BASS MN BLACK",
+      "category_id": "2",
+      "price": "86000",
+      "photo": "FENDER PLAYER PRECISION BASS MN BLACK.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER JAZZ BASS PF BLACK",
+      "category_id": "2",
+      "price": "86000",
+      "photo": "FENDER PLAYER JAZZ BASS PF BLACK.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER JAGUAR BASS MN SILVER",
+      "category_id": "2",
+      "price": "86000",
+      "photo": "FENDER PLAYER JAGUAR BASS MN SILVER.jpg"
+    }
+  ]
+
+
+  [
+    {
+      "good_name": "Струны D`ADDARIO EXP26 COATED PHOSPHOR BRONZE CUSTOM LIGHT 11-52",
+      "category_id": 3,
+      "price": 1080,
+      "photo": "D`ADDARIO EXP26 COATED PHOSPHOR BRONZE CUSTOM LIGHT 11-52.jpg"
+    },
+    {
+      "good_name": "Тюнер KORG PITCHCLIP PC-2",
+      "category_id": 3,
+      "price": 1190,
+      "photo": "KORG PITCHCLIP PC-2.jpg"
+    },
+    {
+      "good_name": "IBANEZ GIO GSA60 BS",
+      "category_id": 1,
+      "price": 26100,
+      "photo": "IBANEZ GIO GSA60 BS.jpg"
+    },
+    {     
+      "good_name": "JACKSON JS22-7 DKA, AH FB - HT STN BLK",
+      "category_id": 1,
+      "price": 32000,
+      "photo": "JACKSON JS22-7 DKA, AH FB - HT STN BLK.jpg"
+    },
+    {
+      "good_name": "IBANEZ RG421-MOL",
+      "category_id": 1,
+      "price": 41000,
+      "photo": "IBANEZ RG421-MOL.jpg"
+    },
+    {
+      "good_name": "MARSHALL DSL1 COMBO",
+      "category_id": 3,
+      "price": 41000,
+      "photo": "MARSHALL DSL1 COMBO.jpg"
+    },
+    {
+      "good_name": "JACKSON JS3Q SPECTRA IV - AMBER BLUE BURST",
+      "category_id": 2,
+      "price": 56000,
+      "photo": "JACKSON JS3Q SPECTRA IV - AMBER BLUE BURST.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER STRATOCASTER PF POLAR WHITE",
+      "category_id": 1,
+      "price": 71400,
+      "photo": "FENDER PLAYER STRATOCASTER PF POLAR WHITE.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER TELECASTER MN BUTTERSCOTCH BLONDE",
+      "category_id": 1,
+      "price": 71400,
+      "photo": "FENDER PLAYER TELECASTER MN BUTTERSCOTCH BLONDE.jpg"
+    },
+    {
+      "good_name": "JACKSON CBXNT IV - MATTE ARMY DRAB",
+      "category_id": 2,
+      "price": 73000,
+      "photo": "JACKSON CBXNT IV - MATTE ARMY DRAB.jpg"
+    },
+    {
+      "good_name": "IBANEZ SR500E-BM SR",
+      "category_id": 2,
+      "price": 73000,
+      "photo": "IBANEZ SR500E-BM SR.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER PRECISION BASS MN BLACK",
+      "category_id": 2,
+      "price": 86000,
+      "photo": "FENDER PLAYER PRECISION BASS MN BLACK.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER JAZZ BASS PF BLACK",
+      "category_id": 2,
+      "price": 86000,
+      "photo": "FENDER PLAYER JAZZ BASS PF BLACK.jpg"
+    },
+    {
+      "good_name": "FENDER PLAYER JAGUAR BASS MN SILVER",
+      "category_id": 2,
+      "price": 86000,
+      "photo": "FENDER PLAYER JAGUAR BASS MN SILVER.jpg"
+    }
+  ]
