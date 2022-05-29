@@ -15,7 +15,7 @@ export class User extends Model<User, UserCreationAtt> {
   @Column({type: DataType.STRING, allowNull: false})
   user_name: string;
 
-  @Column({type: DataType.INTEGER, unique: true , allowNull: false})
+  @Column({type: DataType.STRING, unique: true , allowNull: false})
   email: number;
 
   @Column({type: DataType.STRING, allowNull: false})
