@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { SequelizeModule } from '@nestjs/sequelize';
+import { AuthModule } from 'src/auth/auth.module';
 import { OrderGoods } from './models/order-goods.model';
 import { Order } from './models/order.model';
 import { OrdersController } from './orders.controller';
@@ -9,7 +10,8 @@ import { OrdersService } from './orders.service';
   controllers: [OrdersController],
   providers: [OrdersService],
   imports: [
-    SequelizeModule.forFeature([Order, OrderGoods])
+    SequelizeModule.forFeature([Order, OrderGoods]),
+    AuthModule
   ]
 })
 export class OrdersModule {}
