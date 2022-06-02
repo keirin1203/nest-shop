@@ -12,12 +12,13 @@ import { AuthService } from './auth.service';
     JwtModule.register({
       secret: 'secretKey',
       signOptions: {
-        expiresIn: '24h'
+        expiresIn: '1000h'
       }
     })
   ],
   exports: [
-    AuthModule
+    AuthModule,
+    JwtModule
   ]
 })
 export class AuthModule {}

@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+import { JwtModule } from '@nestjs/jwt';
 import { SequelizeModule } from '@nestjs/sequelize';
 import { AuthModule } from 'src/auth/auth.module';
 import { OrderGoods } from './models/order-goods.model';
@@ -11,7 +12,8 @@ import { OrdersService } from './orders.service';
   providers: [OrdersService],
   imports: [
     SequelizeModule.forFeature([Order, OrderGoods]),
-    AuthModule
+    AuthModule,
+    JwtModule
   ]
 })
 export class OrdersModule {}

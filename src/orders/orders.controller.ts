@@ -1,4 +1,5 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+import { Body, Controller, Request ,Post, UseGuards, Get } from '@nestjs/common';
+import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
 import { createOrderDto } from './dto/create-order.dto';
 import { OrdersService } from './orders.service';
 
@@ -6,8 +7,14 @@ import { OrdersService } from './orders.service';
 export class OrdersController {
   constructor(private OrdersService: OrdersService){}
 
-  @Post()
-  createOrder(@Body() dto: createOrderDto) {
-    return this.OrdersService.createOrder(dto)
+  @UseGuards(JwtAuthGuard)
+  @Post('create')
+  createOrder(@Body() dto: createOrderDto, @Request() request) {
+    return this.OrdersService.createOrder(dto, request.user)
+  }
+
+  @Get('test')
+  test(){
+    return this.OrdersService.test()
   }
 }

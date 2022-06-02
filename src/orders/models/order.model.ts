@@ -9,8 +9,8 @@ interface OrderCreationAtt {
   full_summa: number,
   delivery: string,
 
-  orderedGoods: Good[],
-  customer_id: number,
+  goods: Good[],
+  user_id: number,
 }
 
 @Table({tableName: 'orders'})
@@ -24,15 +24,24 @@ export class Order extends Model<Order, OrderCreationAtt> {
   @Column({type: DataType.INTEGER})
   delivery_summa: number;
 
-  @Column({type: DataType.INTEGER})
+  @Column({type: DataType.INTEGER, allowNull: false})
   full_summa: number;
 
   @Column({type: DataType.INTEGER})
   delivery: string;
 
+
+  @Column({type: DataType.INTEGER, allowNull: false})
+  address: string;
+
+  @Column({type: DataType.INTEGER, allowNull: false})
+  phone: string;
+  
+
   @ForeignKey(() => User)
-  @Column({type: DataType.INTEGER})
+  @Column({type: DataType.INTEGER, allowNull: false})
   user_id: number;
+
 
   @BelongsTo(() => User)
   user: User;
